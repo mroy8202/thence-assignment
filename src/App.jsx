@@ -1,10 +1,13 @@
 import './App.css'
-import Navbar from './Components/Navbar'
+import Homepage from './Pages/Homepage'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className='h-screen w-screen flex flex-col gap-2 font-manrope'>
-      <Navbar />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+      </Routes>
 
     </div>
   )
