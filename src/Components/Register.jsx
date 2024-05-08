@@ -3,7 +3,7 @@ import Success from '../Assets/Success.svg'
 import ErrorImg from '../Assets/Error/Error.svg'
 import { useLocation, useNavigate } from 'react-router-dom'
 
-const Register = () => {
+const Register = ({ setIsRegistered }) => {
 
   const currentPath = useLocation()
 
@@ -43,6 +43,7 @@ const Register = () => {
       setEmailError("Enter a valid email addesss")
       return
     }
+    setIsRegistered(true)
     navigate("/success")
   }
 
