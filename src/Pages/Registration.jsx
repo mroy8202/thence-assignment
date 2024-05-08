@@ -1,8 +1,14 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
+import Register from '../Components/Register'
 
 const Registration = () => {
   return (
-    <div>Registration</div>
+    <div className='flex flex-col items-center'>
+        <Navbar />
+        
+        <Register />
+    </div>
   )
 }
 
