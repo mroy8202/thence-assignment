@@ -1,9 +1,10 @@
-# React + Vite
+# Thence Frontend Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Netlify Link: https://thencefrontend.netlify.app/
 
-Currently, two official plugins are available:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# thence-assignment" 
+- Open this terminal and paste this command `git clone https://github.com/mroy8202/thence-assignment.git`
+- Change directory to "thence-assignment" folder
+- Paste this command `npm install`
+- Finally use `npm run dev` to launch
