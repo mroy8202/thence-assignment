@@ -6,7 +6,6 @@ const Registration = () => {
   return (
     <div className='flex flex-col items-center'>
         <Navbar />
-        
         <Register />
     </div>
   )

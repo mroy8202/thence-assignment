@@ -8,7 +8,6 @@ import Right from '../Assets/Cross/rightCross.svg'
 const Navbar = () => {
 
     const currentPath = useLocation()
-    console.log("Current path: ", currentPath.pathname)
 
   return (
     <div className='w-full pt-[10px] h-[100px] flex justify-center'>
