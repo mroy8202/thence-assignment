@@ -22,7 +22,7 @@ const Section2 = () => {
             </div>
         </div>
 
-        <div className='w-[50%] border border-black flex items-center justify-center'>
+        <div className='w-[50%] flex items-center justify-center'>
             <div className='flex flex-col gap-4 w-[80%]'>
                 <div className='flex-flex-col gap-2'>
                     <ExpandCollapse 
