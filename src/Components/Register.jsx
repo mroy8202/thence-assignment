@@ -108,7 +108,7 @@ const Register = ({ setIsRegistered }) => {
                     rounded-full font-medium text-xl 
                     leading-7 text-[#827A7A] p-4
                     bg-[#EFEFEF]
-                    ${focusedField === "fullname" ? "text-[#000000]": "text-[#827A7A]"}
+                    ${focusedField === "fullname" ? "text-black": "text-[#827A7A]"}
                   `}
                 />
 
@@ -124,7 +124,7 @@ const Register = ({ setIsRegistered }) => {
                     rounded-full font-medium text-xl 
                     leading-7 text-[#827A7A] p-4
                     bg-[#EFEFEF]
-                    ${focusedField === "fullname" ? "text-[#000000]": "text-[#827A7A]"}
+                    ${focusedField === "fullname" ? "text-black": "text-[#827A7A]"}
                   `}
                 />
 
