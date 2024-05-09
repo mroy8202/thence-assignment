@@ -24,9 +24,12 @@ const ExpandCollapse = ({headingText, bottomText}) => {
         </div>
         {expanded && (
                 <div className='text-[#617275] text-base'>
-                    {bottomText} {/* Use props.bottomText */}
+                    {bottomText} 
                 </div>
         )}
+
+        <div className='border border-[#D7D7D7] mt-4'>
+        </div>
     </div>
   )
 }
